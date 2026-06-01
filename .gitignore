@@ -1,0 +1,114 @@
+# ============================================================
+# 拐了个羊 - .gitignore
+# Unity 2D + 抖音小游戏 + 抖音云开发（Node.js）
+# 基于 GitHub 官方 Unity 模板 + 项目特定补充
+# ============================================================
+
+# ---------- Unity 工程生成目录 ----------
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+[Rr]ecordings/
+
+# ---------- Unity .meta 文件保留规则 ----------
+# .meta 是 Unity 资源元数据，必须随 Assets 一起提交
+!/[Aa]ssets/**/*.meta
+!/[Pp]ackages/**/*.meta
+
+# ---------- IDE 生成 ----------
+.vs/
+.vscode/
+.idea/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+ExportedObj/
+.consulo/
+
+# Jetbrains Rider 自动生成
+/[Aa]ssets/Plugins/Editor/JetBrains*
+
+# ---------- Unity 自动生成 ----------
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+sysinfo.txt
+
+# ---------- 构建产物 ----------
+*.apk
+*.aab
+*.unitypackage
+*.app
+*.ipa
+*.exe
+
+# ---------- Crashlytics ----------
+crashlytics-build.properties
+
+# ---------- Addressables ----------
+/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+
+# 临时自动生成的 Android Assets
+/[Aa]ssets/[Ss]treamingAssets/aa.meta
+/[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# ---------- 操作系统 ----------
+.DS_Store
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# ---------- 抖音小游戏构建产物 ----------
+[Mm]ini[Gg]ame[Bb]uild/
+DouyinBuild/
+TTMiniGameBuild/
+toutiao-minigame-build/
+WebGLBuild/
+
+# 抖音 Unity 转换工具临时文件
+/.tt_temp/
+
+# ---------- 抖音云开发 / Node.js 后端 ----------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json.bak
+
+# 环境变量与密钥（重要！不要提交）
+.env
+.env.local
+.env.*.local
+secrets.json
+credentials.json
+*.pem
+*.key
+
+# 抖音云开发本地配置
+.cloudbase/
+cloudbase.local.json
+
+# ---------- 文档工具临时 ----------
+~$*.docx
+~$*.xlsx
+*.tmp.md
+
+# ---------- Claude Code 本地配置 ----------
+.claude/
+CLAUDE.local.md
