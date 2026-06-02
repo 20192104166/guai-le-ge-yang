@@ -81,8 +81,16 @@ TTMiniGameBuild/
 toutiao-minigame-build/
 WebGLBuild/
 
+# 字节抖音 Unity 转换工具产物（写在 Unity 项目根目录的）
+tt-minigame/
+log
+log.txt
+game.json
+project.config.json
+
 # 抖音 Unity 转换工具临时文件
 /.tt_temp/
+.bgdt/
 
 # ---------- 抖音云开发 / Node.js 后端 ----------
 node_modules/
